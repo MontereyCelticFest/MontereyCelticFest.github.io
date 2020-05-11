@@ -20,6 +20,8 @@ nav a:hover {
 .navbar-main .navbar-nav>li>a {
 	color: white;
 	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 0.05em;
 	font-family: 'Raleway', sans-serif;
 }
 /* hover color */
@@ -47,13 +49,36 @@ nav a:hover {
 	width: 100%;
 	z-index: 10;
 }
-/* centered text */
+/* centered text main page */
 .centered1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'Permanent Marker', cursive;
+}
+/* centered text tiles */
+.centered2 {
+	position: absolute;
+	top: 91%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.22em;
+	color: white;
+	white-space: nowrap;
+}
+/* bottom text */
+.bottom_text {
+	padding-top: 3%;
+	padding-left: 1%;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.16em;
+	color: rgb(155,211,241);
 }
 /* container for main page tiles */
 .main_page_grid {
@@ -76,5 +101,13 @@ nav a:hover {
 .ticket_btn {
 	width: 100;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
+}
+/* social btns */
+.btn-xl {
+    padding: 10px 10px;
+    font-size: 60px;
+    border-radius: 10px;
 }

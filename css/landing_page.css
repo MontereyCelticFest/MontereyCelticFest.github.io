@@ -19,11 +19,13 @@ nav a:hover {
 /* nav bar text color */
 .navbar-main .navbar-nav>li>a {
 	color: white;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
 }
 /* hover color */
 .navbar-d .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: rgb(110,171,222);
-    color: rgb(155,211,241)
+    color: rgb(155,211,241);
 }
 /* logo on navbar */
 .brand {
@@ -61,4 +63,18 @@ nav a:hover {
 /* creates hover effect over tiles */
 .thumbnail:hover {
 	opacity: .72;
+}
+/* zoom effect over main tiles */
+.zoom {
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.03);
+}
+/* ticket btn on main page */
+.ticket_btn {
+	width: 100;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
 }

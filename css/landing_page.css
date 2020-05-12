@@ -16,6 +16,9 @@ nav a:hover {
 .navbar-main {
 	background: rgb(110,171,222);
 }
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
 /* nav bar text color */
 .navbar-main .navbar-nav>li>a {
 	color: white;

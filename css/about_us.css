@@ -54,8 +54,7 @@ nav a:hover {
     background: rgb(87,123,183);
 }
 .color2 {
-    background: rgb(240,129,123);
-    border-radius: 25px;
+    background: rgb(240,129,123); 
 }
 .color3 {
     background: rgb(224,184,96);
@@ -70,49 +69,21 @@ nav a:hover {
     background: rgb(100,194,198);
 }
 /* description text for imgs */
-.desc_text {
-    padding-top: 3%;
-    padding-left: 1%;
+.about_text {
+    padding: 3%;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.16em;
-    color: white;
+    color: black;
+    border-radius: 25px;
 }
-/* text for events include */
-.event_text {
-    padding-top: 1%;
-    padding-left: 1%;
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.16em;
-    color: rgb(0,0,0);
-}
-/* text for events include */
-.event_text2 {
-    padding-top: 0%;
-    padding-left: 1%;
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.16em;
-    color: white;
-}
-/* fix left picture padding */
-.container {
-    padding:0px;
-}
+/* no padding */
 .no_padding {
    padding: 0 !important;
    margin: 0 !important;
 }
-/* img title */
-.img_title {
-    font-family: 'Permanent Marker', cursive;
-    text-align: center
-}
-/* rounding sides of images */
-.main_imgs {
-/*    border-radius: 50%; for circle*/
-    border-radius: 25px;
+.add_padding {
+    padding: 3%;
 }
 /* Title */
 .centered1 {
@@ -120,8 +91,12 @@ nav a:hover {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    background: rgb(0,159,203);
     font-family: 'Roboto', sans-serif;
     color: black;
+}
+/* rounding sides of images */
+.main_imgs {
+/*    border-radius: 50%; for circle*/
+    border-radius: 25px;
 }
 

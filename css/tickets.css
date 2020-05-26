@@ -63,7 +63,7 @@ nav a:hover {
 .main_page_img
 {
  width: 100%;
- z-index: 10;
+ z-index: 10; */
 }
 /* centered text main page */
 .centered1 {
@@ -162,4 +162,8 @@ nav a:hover {
   .collapse.in{
       display:block !important;
   }
+}
+/*padding so top of first container does get cut off  */
+.pad_for_nav{
+  padding-top: 70px;
 }

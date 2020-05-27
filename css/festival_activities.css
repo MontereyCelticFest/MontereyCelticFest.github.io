@@ -1,45 +1,3 @@
-/* adds logo to nav bar */
-.navbar {
-    position: relative;
-    margin-bottom: 0;
-}
-/* hover animation on navbar */
-nav a:hover {
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
-/* forced fixing of nav bar */
-.navbar-fixed-top {
-    position:fixed !important;
-}
-/* nav bar color */
-.navbar-main {
-	background: rgb(110,171,222);
-}
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: white;
-}
-/* nav bar text color */
-.navbar-main .navbar-nav>li>a {
-	color: white;
-	text-transform: uppercase;
-	font-weight: 200;
-	letter-spacing: 0.05em;
-	font-family: 'Raleway', sans-serif;
-}
-/* hover color */
-.navbar-d .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: rgb(110,171,222);
-    color: rgb(155,211,241);
-}
-/* logo on navbar */
-.brand {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;  /* 50% of your logo width */
-	display: block;
-	z-index: 20;
-}
 /* top buffer to move tiles down */
 .top-buffer {
     margin-top: 50px;
@@ -124,4 +82,3 @@ nav a:hover {
     font-family: 'Roboto', sans-serif;
     color: black;
 }
-

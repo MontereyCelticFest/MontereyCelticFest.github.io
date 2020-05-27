@@ -5,45 +5,37 @@
 	<!-- Bootstrap CSS include -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Raw CSS include -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/nav.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/landing_page.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/landing_page.css"> -->
 	<!-- Main page font include -->
 	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 	<!-- Nav bar and tiles font include -->
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
 	<!-- Font awesome include -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<!-- path to nav bar -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-	<!-- Navbar -->
+	<!--Navigation bar-->
+	<!-- wont appear on local machine unless:
+	1. cd into the correct directory containing the index.html
+	2. python3 -m http.server (in the cmd linke)
+	3. (paste the url server into the browser e.g.) http://[::]:8000/  -->
+	<div id="nav-placeholder">
 
-	<nav class="navbar navbar-d navbar-default navbar-main navbar-fixed-top">
-		<div class="container">
-			<!-- collapsable hamburger icon for mobile -->
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-collapse" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <!-- broken -->
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      	</button>
+	</div>
 
-	      	<div class="brand" style="margin: 0; float: none;" href="#"> <img src="images/fake_logo.png"/ height="130"></div>
-			<div class="collapse navbar-collapse" id="header-collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="tickets.html">Tickets & Competitors</a></li>
-					<li><a href="#">Line Up</a></li>
-					<li><a href="festival_activities.html">Festival Activities</a></li>
-				</ul>
+	<script>
+	$(function(){
+		$("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
 
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Information</a></li>
-					<li><a href="about_us.html">About Us</a></li>
-					<li><a href="#">Sponsors</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+
 <div class="main_page_container">
 	<!-- main page image -->
 	<img src="images/monterey_overview.jpg" class="main_page_img">

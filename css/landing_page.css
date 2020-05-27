@@ -62,6 +62,8 @@ nav a:hover {
 }
 /* centered text tiles */
 .centered2 {
+/*	background: rgb(110,171,222);
+	border-radius: 25px;*/
 	position: absolute;
 	top: 91%;
 	left: 50%;

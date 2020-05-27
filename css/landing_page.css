@@ -32,6 +32,8 @@
 	letter-spacing: 0.22em;
 	color: white;
 	white-space: nowrap;
+/*	background: lightblue;
+	width: 92%;*/
 }
 /* bottom text */
 .bottom_text {
@@ -56,6 +58,7 @@
 .zoom {
   transition: transform .4s; /* Animation */
   margin: 0 auto;
+  display: inline-block;
 }
 .zoom:hover {
   transform: scale(1.03);

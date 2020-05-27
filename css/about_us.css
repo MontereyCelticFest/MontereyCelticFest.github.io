@@ -18,13 +18,13 @@
     background: rgb(224,184,96);
 }
 .color4 {
-    background: rgb(0,159,203);
+    background: rgb(0,159,203, 0.6);
 }
 .color5 {
     background: rgb(243,133,165);
 }
 .color6 {
-    background: rgb(100,194,198);
+    background: rgb(100,194,198, 0.6);
 }
 /* description text for imgs */
 .about_text {

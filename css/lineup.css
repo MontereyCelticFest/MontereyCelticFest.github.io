@@ -11,12 +11,18 @@
 	z-index: 10; */
 }
 /* centered text main page */
-.centered1 {
+#centered1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	font-size: 90px; /* Big font size */ 
 	transform: translate(-50%, -50%);
 	font-family: 'Permanent Marker', cursive;
+	white-space: nowrap;
+	transition: 2s;
+}
+.top {
+	opacity: 1;
 }
 /* background color */
 body {

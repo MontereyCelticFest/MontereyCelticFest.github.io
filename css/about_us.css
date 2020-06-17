@@ -1,3 +1,6 @@
+body {
+    background-image: url("stripes-light.png");
+}
 /* top buffer to move tiles down */
 .top-buffer {
     margin-top: 50px;

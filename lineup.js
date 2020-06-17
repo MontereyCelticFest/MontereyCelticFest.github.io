@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("centered1").style.fontSize = "50px";
   } else {
     document.getElementById("centered1").style.fontSize = "90px";

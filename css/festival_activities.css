@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/stripes-light.png");
+    background-image: url("stripes-light.png");
 }
 /* top buffer to move tiles down */
 .top-buffer {

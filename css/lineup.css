@@ -1,0 +1,84 @@
+/* main page */
+.main_page_container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+/* centers picture */
+.main_page_img
+{
+	width: 100%;
+	z-index: 10; */
+}
+/* centered text main page */
+.centered1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Permanent Marker', cursive;
+}
+/* background color */
+body {
+	background: rgb(162,196,221, 0.8);
+}
+/* tables */
+.table-sm {
+	position: relative;
+	padding-left: 80px;
+	font-size: 1.1em;
+}
+/* day text */
+.day_text {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	height: 85px;
+	letter-spacing: 0.16em;
+	padding-top: 50px;
+	color: rgb(0,106,113);
+}
+/* table text */
+.table_text {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.10em;
+	height: 85px;
+}
+/* container for main page tiles */
+.main_page_grid {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/* creates hover effect over tiles */
+.thumbnail:hover {
+	opacity: .72;
+}
+/* zoom effect over main tiles */
+.zoom {
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;
+  display: inline-block;
+  background: rgb(162,196,221, 0.8);
+}
+.zoom:hover {
+  transform: scale(1.03);
+}
+/* centered text tiles */
+.centered2 {
+	position: absolute;
+	top: 91%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.16em;
+	color: white;
+	white-space: nowrap;
+}
+/* container for main page tiles */
+.main_page_grid {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

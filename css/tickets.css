@@ -72,3 +72,14 @@
    font-size: 60px;
    border-radius: 10px;
 }
+/* background color */
+body {
+	background: rgb(162,196,221, 0.8);
+}
+p {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.10em;
+	height: 85px;
+	padding-top: 10px;
+}

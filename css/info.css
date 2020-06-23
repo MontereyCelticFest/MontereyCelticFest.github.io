@@ -1,0 +1,47 @@
+/* General Info Title */
+.title {
+	font-family: 'Raleway', sans-serif;
+	padding-left: 20px;
+	padding-top: 50px;
+	font-size: 40px;
+}
+/* Sub Title */
+.subtitle {
+	font-family: 'Raleway', sans-serif;
+	padding-left: 20px;
+	padding-top: 15px;
+	font-size: 25px;
+}
+/* Sub Title */
+.subtitle2 {
+	font-family: 'Raleway', sans-serif;
+	padding-top: 15px;
+	font-size: 25px;
+}
+/* Sub Title */
+.subtitle3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+/* map */
+.map_container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+/* tiles */
+.col-md-6 {
+	max-height: 30%;
+	max-width: 30%;
+	border-style: groove;
+}
+/* social btns */
+.btn-xl {
+    padding: 10px 10px;
+    font-size: 60px;
+    border-radius: 10px;
+}
+.main_page_grid {
+	padding: 50px;
+}

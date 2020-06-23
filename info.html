@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monterey Scottish Games and Celtic Festival</title>
+	<!-- Bootstrap CSS include -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Raw CSS include -->
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/info.css">
+	<!-- Main page font include -->
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<!-- Nav bar and tiles font include -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<!-- Font awesome include -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- path to nav bar -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<!-- lineup js file include -->
+	<script src="lineup.js"></script>
+
+</head>
+<body>
+
+	<!--Navigation bar-->
+	<!-- wont appear on local machine unless:
+	1. cd into the correct directory containing the index.html
+	2. python3 -m http.server (in the cmd linke)
+	3. (paste the url server into the browser e.g.) http://[::]:8000/  -->
+	<div id="nav-placeholder">
+
+	</div>
+
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
+	<h3 class="title">General Info</h3>
+	<h3 class="subtitle">Event Map</h3>
+	<div class="map_container">
+		<img src="images/map-placeholder.jpg" class="main_page_img">
+			<div class="top" id="centered1" ></div>
+	</div>
+	<div class="main_page_grid">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div>
+					<h3 class="subtitle3">Lodging</h3>
+					<ul>
+						<li>One</li>
+						<li>Two</li>
+						<li>Three</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div>
+					Lodging picture
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div>
+					<h3 class="subtitle3">Parking Info</h3>
+				</div>
+				In hac habitasse platea dictumst. Pellentesque sit amet iaculis urna. Nam id nunc sit amet tortor aliquet consequat eu vel lorem. Quisque accumsan laoreet pharetra. Aliquam erat volutpat. Aliquam augue velit, gravida quis molestie vel, hendrerit bibendum diam. Curabitur ac odio vitae nibh cursus tincidunt. Sed ultricies auctor orci, id posuere ipsum dignissim at.
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div>
+					Parking Map
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div>
+					<h3 class="">Directions: Link</h3>
+					<h3 class="">Address:</h3>
+					<p>Monterey County Fairgrounds<br> 2004 Fairground Road<br> Monterey CA 93940<br></p>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.3241118971173!2d-121.86384308481179!3d36.59450228695133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de45485959d65%3A0xb56e1aa5ce10c9!2sMonterey%20County%20Fairgrounds!5e0!3m2!1sen!2sus!4v1592949305939!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+
+		<h3 class="subtitle2">More Info</h3>
+		<p>Hours: 9:00AM-5:00PM</p>
+		<h3 class="subtitle2">Social Media</h3>
+		<a class="btn-xl" type="button" role="button" href="https://www.facebook.com/montereyscotgames/"><i class="fa fa-facebook-square"></i></a>
+		<a class="btn-xl" type="button" role="button" href="https://www.instagram.com/explore/locations/355118236/monterey-scottish-games-celtic-festival/"><i class="fa fa-instagram"></i></a>
+		<span class="subtitle2">Contact Us: <a href="mailto:info7@montereyscotgames.com">info7@montereyscotgames.com</a></span>
+	</div>

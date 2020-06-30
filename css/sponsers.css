@@ -3,7 +3,9 @@
  position: relative;
  text-align: center;
  color: white;
+ /* height: 50px; */
 }
+
 /* centers picture */
 .main_page_img
 {
@@ -17,6 +19,14 @@
  left: 50%;
  transform: translate(-50%, -50%);
  font-family: 'Permanent Marker', cursive;
+ /* padding-bottom: 300px; */
+}
+.h-text {
+  padding-top: 100px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  -webkit-text-stroke: 2px black;
+
 }
 /* centered text tiles */
 .centered2 {

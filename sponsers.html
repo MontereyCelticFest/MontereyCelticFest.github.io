@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monterey Scottish Games and Celtic Festival</title>
+	<!-- Bootstrap CSS include -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Raw CSS include -->
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/tickets.css">
+	<!-- Main page font include -->
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<!-- Nav bar and tiles font include -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap" rel="stylesheet">
+	<!-- Font awesome include -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- path to nav bar -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+
+	<!--Navigation bar-->
+	<!-- wont appear on local machine unless:
+	1. cd into the correct directory containing the index.html
+	2. python3 -m http.server (in the cmd linke)
+	3. (paste the url server into the browser e.g.) http://[::]:8000/  -->
+	<div id="nav-placeholder">
+
+	</div>
+
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
+
+	<!-- <div class="container pad_for_nav">
+		<button type="button" class="btn btn-light btn-lg ticket_btn">Buy Tickets</button>
+		<button type="button" class="btn btn-outline-info">Buy Tickets</button>
+	</div> -->
+	<div class="main_page_container">
+		<!-- main page image -->
+		<img src="images/monterey-outdoors-tickets.png" class="main_page_img">
+			<div class="centered1" style="font-size:6vw;">Tickets & Pricing <br>
+				<button type="button" class="btn btn-primary btn-lg ticket_btn">Buy Tickets</button>
+			</div>
+	</div>
+
+	<!-- home page grid system -->
+	<div class="row main_page_grid">
+		<div class="container-fluid">
+			<div class="col-md-4 col-sm-6">
+				<div class="thumbnail zoom">
+					<img src="images/Whiskey-Tasting-P1-2.jpg">
+				</div>
+			<p>Learn about whiskies of Scotland first hand with whisky expert Alan Purvis.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="thumbnail zoom">
+					<img src="images/P1-3.png">
+				</div>
+			<p>Become a top supporter of the Festival with exclusive VIP passes which includes access to the centrally located VIP tent and catered lunch with open beer, wine and drinks.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="thumbnail zoom">
+					<img src="images/Parking-P1-4.jpg">
+				</div>
+			<p>Save time and purchase parking passes in advance.</p>
+			</div>
+		</div>
+	</div>
+			<!-- <table class="table table-sm">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">First</th>
+						<th scope="col">Last</th>
+						<th scope="col">Handle</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Mark</td>
+						<td>Otto</td>
+						<td>@mdo</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td colspan="2">Larry the Bird</td>
+						<td>@twitter</td>
+					</tr>
+				</tbody>
+			</table> -->
+
+
+<!-- jquery include -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<!-- Bootstrap js include -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

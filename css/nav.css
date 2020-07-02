@@ -43,7 +43,7 @@ nav a:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 10px;
+  top: -10px;
 }
 
 @media (max-width: 991px) {

@@ -2,6 +2,7 @@
 .navbar {
    position: relative;
    margin-bottom: 0;
+   /* min-height: 80px; */
 }
 /* hover animation on navbar */
 nav a:hover {
@@ -55,6 +56,7 @@ nav a:hover {
   }
   .navbar-toggle {
       display: block;
+      margin-top: 40;
   }
   .navbar-collapse {
       border-top: 1px solid transparent;
@@ -63,6 +65,7 @@ nav a:hover {
   .navbar-fixed-top {
       top: 0;
       border-width: 0 0 1px;
+        min-height: 80px;
   }
   .navbar-collapse.collapse {
       display: none!important;
@@ -75,14 +78,28 @@ nav a:hover {
       float: none;
   }
   .navbar-nav>li>a {
+
       padding-top: 10px;
       padding-bottom: 10px;
+      line-height: 27px;
+      /* height: 300; */
   }
   .collapse.in{
       display:block !important;
   }
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+      margin-right: -15px;
+      margin-left: -15px;
+      padding-top: 10px;
+  }
+
 }
 /*padding so top of first container does get cut off  */
 .pad_for_nav{
   padding-top: 70px;
 }
+
+/* .container-fluid>.navbar-collapse{
+  margin-top: 20px;
+
+} */

@@ -7,6 +7,8 @@
 /* centers picture */
 .main_page_img
 {
+	margin-top: 200;
+	padding-top: 200;
 	width: 100%;
 	z-index: 10;
 }

@@ -20,6 +20,15 @@
 	transform: translate(-50%, -50%);
 	font-family: 'Permanent Marker', cursive;
 }
+/* centered text main page */
+.centered3 {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
 /* centered text tiles */
 .centered2 {
 /*	background: rgb(110,171,222);

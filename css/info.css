@@ -41,7 +41,6 @@ body {
 .col-md-6 {
 	max-height: 30%;
 	max-width: 30%;
-	border-style: groove;
 }
 /* social btns */
 .btn-xl {
@@ -55,4 +54,7 @@ body {
 .info_img {
 	width: 100%;
 	padding-bottom: 20px;
+}
+.map_img {
+	max-width: 40%;
 }

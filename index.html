@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Monterey Scottish Games and Celtic Festival</title>
 	<!-- Bootstrap CSS include -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Raw CSS include -->
 	<!-- <link rel="stylesheet" type="text/css" href="css/nav.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
@@ -18,6 +20,7 @@
 	<!-- path to nav bar -->
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
+
 <body>
 	<!--Navigation bar-->
 	<!-- wont appear on local machine unless:
@@ -29,113 +32,144 @@
 	</div>
 
 	<script>
-	$(function(){
-		$("#nav-placeholder").load("nav.html");
-	});
+		$(function () {
+			$("#nav-placeholder").load("nav.html");
+		});
 
-	var onResize = function() {
-  // apply dynamic padding at the top of the body according to the fixed navbar height
-  $("body").css("padding-top", $(".navbar-fixed-top").height());
-};
+		var onResize = function () {
+			// apply dynamic padding at the top of the body according to the fixed navbar height
+			$("body").css("padding-top", $(".navbar-fixed-top").height());
+		};
 
-// attach the function to the window resize event
-$(window).resize(onResize);
+		// attach the function to the window resize event
+		$(window).resize(onResize);
 
-// call it also when the page is ready after load or reload
-$(function() {
-  onResize();
-});
+		// call it also when the page is ready after load or reload
+		$(function () {
+			onResize();
+		});
 	</script>
 	<!--end of Navigation bar-->
 
 
-<div class="main_page_container">
-	<!-- main page image -->
-	<img src="images/monterey_overview.jpg" class="main_page_img">
-	<div class="centered1" style="font-size:5.8vw;">Monterey Scottish Games<br>& Celtic Festival<br>
-		<a class="btn btn-primary btn-lg ticket_btn" type="button" role="button" href="https://montereyscotgames.ticketspice.com/tickets2021">Buy Tickets</a>
-			<div class = "centered3" style="font-size:2.2vw;">July 17 - July 18, 2021<br><br></div>
+	<div class="main_page_container">
+		<!-- main page image -->
+		<img src="images/monterey_overview.jpg" class="main_page_img">
+		<div class="centered1" style="font-size:5.8vw;">Monterey Scottish Games<br>& Celtic Festival<br></div>
+		<div class="centered3" style="font-size:3.2vw;">July 17 - July 18, 2021<br>
+			<a class="btn btn-primary btn-lg ticket_btn" type="button" role="button"
+				href="https://montereyscotgames.ticketspice.com/tickets2021">Buy Tickets</a>
+		</div>
 	</div>
-</div>
 
-<!-- home page grid system -->
-<div class="row main_page_grid">
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#live_music">
-			<img src="images/HP-2.jpg">
-			<div class="centered2" style="font-size:2vw;">Live Music</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#international_food">
-			<img src="images/HP-3.jpg">
-			<div class="centered2" style="font-size:2vw;">Food</div></a>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#athletics">
-			<img src="images/HP-4.jpg">
-			<div class="centered2" style="font-size:2vw;">Athletics</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#competition">
-			<img src="images/HP-5.jpg">
-			<div class="centered2" style="font-size:1.3vw;">Celtic Music & Competitions</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#beer">
-			<img src="images/HP-6.jpg">
-			<div class="centered2" style="font-size:1.4vw;">Beer and Whiskey Tasting</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#drum">
-			<img src="images/HP-7.jpg">
-			<div class="centered2" style="font-size:1.9vw;">Drum Major Classic</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#dancing">
-			<img src="images/HP-8.jpg">
-			<div class="centered2" style="font-size:1.9vw;">Highland Dancing</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#clans">
-			<img src="images/HP-9.jpg">
-			<div class="centered2" style="font-size:2vw;">Clans</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#history">
-			<img src="images/HP-10.jpg">
-			<div class="centered2" style="font-size:2vw;">Living History</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6">
-		<div class="thumbnail zoom"><a href="festival_activities.html#sheep_dog">
-			<img src="images/HP-11.jpg">
-			<div class="centered2" style="font-size:1.4vw;">Sheep Dog Demonstrations</div>
-		</div>
-	</div>
-	<a style="text-decoration:none" href="index.html#">
-	<div class="col-md-8">
-		<div class="bottom_text" style="font-size:2vw;">Join us for our 53rd year in bringing the music, food, athletics and performing arts of Scotland, Ireland, England and Wales to the Monterey Peninsula.<br><br><br><br><br>July 17 & July 18, 2021
-		</div>
-		<a class="btn-xl" type="button" role="button" href="https://www.facebook.com/montereyscotgames/"><i class="fa fa-facebook-square"></i></a>
-		<a class="btn-xl" type="button" role="button" href="https://www.instagram.com/montereyscotgames/"><i class="fa fa-instagram"></i></a>
-	</div>
-</div>
+	<!-- home page grid system -->
+	<div class="row main_page_grid">
 
-<!-- jquery include -->
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<!-- Bootstrap js include -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157246083-2"></script>
-<!-- <script>
+		<!-- activites start-->
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom">
+				<a href="festival_activities.html#live_music">
+					<img src="images/HP-2.jpg">
+					<div class="centered2" style="font-size:2vw;">
+						Live Music
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- activites end-->
+
+		<!-- food start -->
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom">
+				<a href="festival_activities.html#international_food">
+					<img src="images/HP-3.jpg">
+					<div class="centered2" style="font-size:2vw;">
+						Food
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- food end -->
+
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#athletics">
+					<img src="images/HP-4.jpg">
+					<div class="centered2" style="font-size:2vw;">Athletics</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#competition">
+					<img src="images/HP-5.jpg">
+					<div class="centered2" style="font-size:1.3vw;">Celtic Music & Competitions</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#beer">
+					<img src="images/HP-6.jpg">
+					<div class="centered2" style="font-size:1.4vw;">Beer and Whiskey Tasting</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#drum">
+					<img src="images/HP-7.jpg">
+					<div class="centered2" style="font-size:1.9vw;">Drum Major Classic</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#dancing">
+					<img src="images/HP-8.jpg">
+					<div class="centered2" style="font-size:1.9vw;">Highland Dancing</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#clans">
+					<img src="images/HP-9.jpg">
+					<div class="centered2" style="font-size:2vw;">Clans</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#history">
+					<img src="images/HP-10.jpg">
+					<div class="centered2" style="font-size:2vw;">Living History</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="thumbnail zoom"><a href="festival_activities.html#sheep_dog">
+					<img src="images/HP-11.jpg">
+					<div class="centered2" style="font-size:1.4vw;">Sheep Dog Demonstrations</div>
+				</a>
+			</div>
+		</div>
+		<a style="text-decoration:none" href="index.html#">
+			<div class="col-md-8">
+				<div class="bottom_text" style="font-size:2vw;">Join us for our 53rd year in bringing the music, food,
+					athletics and performing arts of Scotland, Ireland, England and Wales to the Monterey
+					Peninsula.<br><br><br><br><br>July 17 & July 18, 2021
+				</div>
+				<a class="btn-xl" type="button" role="button" href="https://www.facebook.com/montereyscotgames/"><i
+						class="fa fa-facebook-square"></i></a>
+				<a class="btn-xl" type="button" role="button" href="https://www.instagram.com/montereyscotgames/"><i
+						class="fa fa-instagram"></i></a>
+			</div>
+	</div>
+
+	<!-- jquery include -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<!-- Bootstrap js include -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157246083-2"></script>
+	<!-- <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -143,4 +177,5 @@ $(function() {
   gtag('config', 'UA-157246083-2');
 </script> -->
 </body>
+
 </html>

@@ -90,3 +90,20 @@
     font-size: 60px;
     border-radius: 10px;
 }
+/*sponsor padding homepage*/
+
+.add_padding {
+    padding: 3%;
+}
+/* Title */
+.sponsorscentered1 {
+    margin-top: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.sponsorscolor4 {
+    background: rgb(0,159,203, 0.6);
+}

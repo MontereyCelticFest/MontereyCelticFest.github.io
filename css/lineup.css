@@ -17,10 +17,20 @@
 	left: 50%;
 	font-size: 90px; /* Big font size */ 
 	transform: translate(-50%, -50%);
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Raleway', sans-serif;
 	white-space: nowrap;
 	transition: 2s;
 }
+/* centered text main page (pulled from tickets page for font)
+.centered1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 3200;
+	font-family: 'Raleway', sans-serif;
+   }*/
+
 .top {
 	opacity: 1;
 }

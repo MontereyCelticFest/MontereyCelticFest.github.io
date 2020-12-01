@@ -29,7 +29,7 @@
 	font-size: 70px;
 	transform: translate(-50%, -50%);
 	font-family: 'Raleway', sans-serif;
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 	transition: 2s;
    }
 

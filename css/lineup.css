@@ -11,16 +11,29 @@
 	z-index: 10; */
 }
 /* centered text main page */
+/*#centered1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 90px; /* Big font size 
+	transform: translate(-50%, -50%);
+	font-family: 'Raleway', sans-serif;
+	white-space: nowrap;
+	transition: 2s;
+}*/
+/* centered text main page (pulled from tickets page for font)*/
 #centered1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	font-size: 90px; /* Big font size */ 
+	font-size: 70px;
 	transform: translate(-50%, -50%);
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Raleway', sans-serif;
 	white-space: nowrap;
 	transition: 2s;
-}
+	text-shadow: 4px 4px 8px #000033;
+   }
+
 .top {
 	opacity: 1;
 }

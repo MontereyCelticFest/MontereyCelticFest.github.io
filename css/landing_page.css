@@ -20,6 +20,7 @@
 	transform: translate(-50%, -50%);
 	font-weight: 4200;
 	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 8px #000033;
 }
 /* centered text main page */
 .centered3 {
@@ -102,7 +103,8 @@
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-family: 'Roboto', sans-serif;
-    color: black;
+	color: black;
+	
 }
 .sponsorscolor4 {
     background: rgb(0,159,203, 0.6);

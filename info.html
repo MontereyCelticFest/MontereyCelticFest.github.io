@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Monterey Scottish Games and Celtic Festival</title>
 	<!-- Bootstrap CSS include -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Raw CSS include -->
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/info.css">
@@ -19,23 +21,26 @@
 	<script src="lineup.js"></script>
 
 </head>
+
 <body>
-
-	<!--Navigation bar-->
-	<!-- wont appear on local machine unless:
-	1. cd into the correct directory containing the index.html
-	2. python3 -m http.server (in the cmd linke)
-	3. (paste the url server into the browser e.g.) http://[::]:8000/  -->
+	<!-- nav bar start -->
 	<div id="nav-placeholder">
-
 	</div>
-
 	<script>
-	$(function(){
-	  $("#nav-placeholder").load("nav.html");
-	});
+		$(function () {
+			$("#nav-placeholder").load("nav.html");
+		});
+		var onResize = function () {
+			// apply dynamic padding at the top of the body according to the fixed navbar height
+			$("body").css("padding-top", $(".navbar-fixed-top").height());
+		};
+		$(window).resize(onResize);
+		$(function () {
+			onResize();
+		});
 	</script>
-	<!--end of Navigation bar-->
+	<!-- nav bar end -->
+
 	<h3 class="title">General Info</h3>
 	<div class="main_page_grid">
 		<div class="row">
@@ -43,7 +48,7 @@
 				<h3 class="subtitle">Event Map</h3>
 				<img src="images/P4-1.png" class="map_img">
 			</div>
-			
+
 			<div class="col-lg-6">
 				<h3 class="subtitle">Parking</h3>
 				<p>coming soon</p>
@@ -52,40 +57,51 @@
 		</div>
 		<div class="row">
 			<h3 class="subtitle3">Parking Info</h3>
-			</div>
-				Check back soon for our parking options and the announcement of our official host hotel with discounted room rates for Festival attendees.
+		</div>
+		Check back soon for our parking options and the announcement of our official host hotel with discounted room
+		rates for Festival attendees.
+	</div>
+	</div>
+	<div class="container">
+		<div class="col-md-6 col-sm-6">
+			<div>
+				<h3 class="">Address:</h3>
+				<p>Monterey County Fairgrounds<br> 2004 Fairground Road<br> Monterey CA 93940<br></p>
 			</div>
 		</div>
-		<div class="container">
-			<div class="col-md-6 col-sm-6">
-				<div>
-					<h3 class="">Address:</h3>
-					<p>Monterey County Fairgrounds<br> 2004 Fairground Road<br> Monterey CA 93940<br></p>
-				</div>
-			</div>
 
 
-			<div class = "google_map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.3241118971173!2d-121.86384308481179!3d36.59450228695133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de45485959d65%3A0xb56e1aa5ce10c9!2sMonterey%20County%20Fairgrounds!5e0!3m2!1sen!2sus!4v1592949305939!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			</div>
-
-			<h3 class="subtitle2">More Info</h3>
-			<p><b>Hours:</b><br>Gates open at 9:00am for competitors<br>
-			Festival activities from 11:00am - 5:00pm 
-			</p>
-
-			<h3 class="subtitle2">Social Media</h3>
-			<a class="btn-xl" type="button" role="button" href="https://www.facebook.com/montereyscotgames/"><i class="fa fa-facebook-square"></i></a>
-			<a class="btn-xl" type="button" role="button" href="https://www.instagram.com/montereyscotgames/"><i class="fa fa-instagram"></i></a>
-			<span class="subtitle2"><br>Contact Us: <a href="mailto:montereycelticfest@gmail.com">montereycelticfest@gmail.com</a></span>
+		<div class="google_map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.3241118971173!2d-121.86384308481179!3d36.59450228695133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de45485959d65%3A0xb56e1aa5ce10c9!2sMonterey%20County%20Fairgrounds!5e0!3m2!1sen!2sus!4v1592949305939!5m2!1sen!2sus"
+				width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+				tabindex="0"></iframe>
 		</div>
+
+		<h3 class="subtitle2">More Info</h3>
+		<p><b>Hours:</b><br>Gates open at 9:00am for competitors<br>
+			Festival activities from 11:00am - 5:00pm
+		</p>
+
+		<h3 class="subtitle2">Social Media</h3>
+		<a class="btn-xl" type="button" role="button" href="https://www.facebook.com/montereyscotgames/"><i
+				class="fa fa-facebook-square"></i></a>
+		<a class="btn-xl" type="button" role="button" href="https://www.instagram.com/montereyscotgames/"><i
+				class="fa fa-instagram"></i></a>
+		<span class="subtitle2"><br>Contact Us: <a
+				href="mailto:montereycelticfest@gmail.com">montereycelticfest@gmail.com</a></span>
+	</div>
 	</div>
 	<!-- jquery include -->
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 	<!-- Bootstrap js include -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157246083-2"></script>
 
-	</body>
-	</html>
+</body>
+
+</html>

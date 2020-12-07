@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Monterey Scottish Games and Celtic Festival</title>
 	<!-- Bootstrap CSS include -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Raw CSS include -->
 	<!-- <link rel="stylesheet" type="text/css" href="css/tickets.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/about_us.css">
@@ -20,43 +22,46 @@
 	<!-- path to nav bar -->
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
+
 <body>
-	<!--Navigation bar-->
-	<!-- wont appear on local machine unless:
-	1. cd into the correct directory containing the index.html
-	2. python3 -m http.server (in the cmd linke)
-	3. (paste the url server into the browser e.g.) http://[::]:8000/  -->
+	<!-- nav bar start -->
 	<div id="nav-placeholder">
-
 	</div>
-
 	<script>
-	$(function(){
-		$("#nav-placeholder").load("nav.html");
-	});
+		$(function () {
+			$("#nav-placeholder").load("nav.html");
+		});
+		var onResize = function () {
+			// apply dynamic padding at the top of the body according to the fixed navbar height
+			$("body").css("padding-top", $(".navbar-fixed-top").height());
+		};
+		$(window).resize(onResize);
+		$(function () {
+			onResize();
+		});
 	</script>
-	<!--end of Navigation bar-->
-
-
-
-
-
+	<!-- nav bar end -->
 
 	<div class="centered1 color4" style="font-size:3vw;">About Us</div>
 	<!-- home page grid system -->
 	<div class="container">
 		<div class="row top-buffer">
 			<div class="container about_text color3" style="font-size:1.5vw;">
-				<p> For over 53 years, the Monterey Scottish Games and Celtic Association has supported our mission of bringing our community together to experience the rich and multi-faceted Celtic culture, values and history. </p>
-				<p>	The Association is a group of community leaders strengthening the social fabric of our community through educational events, philanthropic activities and the growth of the Monterey Scottish Games and Celtic Festival.</p>
+				<p> For over 53 years, the Monterey Scottish Games and Celtic Association has supported our mission of
+					bringing our community together to experience the rich and multi-faceted Celtic culture, values and
+					history. </p>
+				<p> The Association is a group of community leaders strengthening the social fabric of our community
+					through educational events, philanthropic activities and the growth of the Monterey Scottish Games
+					and Celtic Festival.</p>
 			</div>
 		</div>
 	</div>
 	<div class="centered1 color6" style="font-size:3vw;">Supported Organizations and Causes</div>
-		<div class="container">
+	<div class="container">
 		<div class="row top-buffer">
 			<div class="container about_text color1" style="font-size:1.5vw;">
-				The Association supports and partners with a number of local educational and military organizations including: 4H, NJROTC, military veterans, local students, local schools.
+				The Association supports and partners with a number of local educational and military organizations
+				including: 4H, NJROTC, military veterans, local students, local schools.
 			</div>
 		</div>
 	</div>
@@ -65,7 +70,8 @@
 	<div class="container">
 		<div class="row top-buffer">
 			<div class="container about_text color2" style="font-size:1.5vw;">
-				The Executive Committee for the Monterey Scottish Games and Celtic Association is a team of volunteer community leaders supporting the mission of our Association.
+				The Executive Committee for the Monterey Scottish Games and Celtic Association is a team of volunteer
+				community leaders supporting the mission of our Association.
 			</div>
 		</div>
 	</div>
@@ -163,11 +169,17 @@
 	<div class="container">
 		<div class="row top-buffer">
 			<div class="container about_text color3" style="font-size:1.5vw;">
-				Volunteer - Join us in growing the impact of our association and supporting our community all while have fun as a volunteer. We have a wide range of volunteer opportunities for all interests. To learn more, contact us at MontereyCelticFest@gmail.com<br><br>
+				Volunteer - Join us in growing the impact of our association and supporting our community all while have
+				fun as a volunteer. We have a wide range of volunteer opportunities for all interests. To learn more,
+				contact us at MontereyCelticFest@gmail.com<br><br>
 
-				Intern program - Apply for our intern program. Have fun supporting an impactful, non-profit organization (501 c3) while enhancing your resume with valuable career experience. Our interns are important, strategic contributors to our most important initiatives. All intern roles receive a monthly stipend. To apply or learn more, contact us at MontereyCelticFest@gmail.com<br><br>
+				Intern program - Apply for our intern program. Have fun supporting an impactful, non-profit organization
+				(501 c3) while enhancing your resume with valuable career experience. Our interns are important,
+				strategic contributors to our most important initiatives. All intern roles receive a monthly stipend. To
+				apply or learn more, contact us at MontereyCelticFest@gmail.com<br><br>
 
-				Donate - As a non-profit 501(C)(3), donations are critical to the continuation and success of our Association. No amount is too small to support our association.
+				Donate - As a non-profit 501(C)(3), donations are critical to the continuation and success of our
+				Association. No amount is too small to support our association.
 			</div>
 		</div>
 	</div>
@@ -177,9 +189,13 @@
 	<div class="container">
 		<div class="row top-buffer">
 			<div class="container about_text color2" style="font-size:1.5vw;">
-				We want to extend a special thank you to our sponsors! Our sponsors are critical to the success our the Monterey Scottish Games & Celtic Association and the annual Festival.<br><br>
+				We want to extend a special thank you to our sponsors! Our sponsors are critical to the success our the
+				Monterey Scottish Games & Celtic Association and the annual Festival.<br><br>
 
-				Our sponsors play an instrumental role in strengthening the social fabric of our community with the added benefit of enhanced brand awareness and improved customer loyalty. With exposure to our 4,000+ attendees and thousands of followers on our social media platforms, sponsoring the Monterey Scottish Games & Celtic Festival is an excellent investment in our community.
+				Our sponsors play an instrumental role in strengthening the social fabric of our community with the
+				added benefit of enhanced brand awareness and improved customer loyalty. With exposure to our 4,000+
+				attendees and thousands of followers on our social media platforms, sponsoring the Monterey Scottish
+				Games & Celtic Festival is an excellent investment in our community.
 			</div>
 		</div>
 	</div>
@@ -222,9 +238,13 @@
 	</div>
 
 	<!-- jquery include -->
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 	<!-- Bootstrap js include -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
 
 </body>
+
 </html>

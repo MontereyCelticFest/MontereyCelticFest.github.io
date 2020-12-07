@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Monterey Scottish Games and Celtic Festival</title>
 	<!-- Bootstrap CSS include -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Raw CSS include -->
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/lineup.css">
@@ -19,32 +21,35 @@
 	<script src="lineup.js"></script>
 
 </head>
+
 <body>
-
-	<!--Navigation bar-->
-	<!-- wont appear on local machine unless:
-	1. cd into the correct directory containing the index.html
-	2. python3 -m http.server (in the cmd linke)
-	3. (paste the url server into the browser e.g.) http://[::]:8000/  -->
+	<!-- nav bar start -->
 	<div id="nav-placeholder">
-
 	</div>
-
 	<script>
-	$(function(){
-	  $("#nav-placeholder").load("nav.html");
-	});
+		$(function () {
+			$("#nav-placeholder").load("nav.html");
+		});
+		var onResize = function () {
+			// apply dynamic padding at the top of the body according to the fixed navbar height
+			$("body").css("padding-top", $(".navbar-fixed-top").height());
+		};
+		$(window).resize(onResize);
+		$(function () {
+			onResize();
+		});
 	</script>
-	<!--end of Navigation bar-->
+	<!-- nav bar end -->
 
 	<div class="main_page_container">
 		<!-- main page image -->
 		<img src="images/P2-1.jpg" class="main_page_img">
 		<!--adding 2021 to the top centered over Festival Lineup-->
-		<div class="top" id="centered1" >2021 <p>Festival Lineup</p></div>
+		<div class="top" id="centered1">2021 <p>Festival Lineup</p>
+		</div>
 
-			<!--<div class="top" id="centered1" > Festival Lineup</div>-->
-			
+		<!--<div class="top" id="centered1" > Festival Lineup</div>-->
+
 	</div>
 	<table class="table table-sm">
 		<div class="day_text" style="font-size:3.5vw;">Saturday July 17, 2021</div>
@@ -198,9 +203,13 @@
 		</div>
 	</div>
 
-<!-- jquery include -->
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<!-- Bootstrap js include -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- jquery include -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<!-- Bootstrap js include -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -56,7 +56,7 @@ nav a:hover {
   }
   .navbar-toggle {
       display: block;
-      margin-top: 20px;
+      margin-top: 10px;
       margin-bottom: 20px;
   }
   .navbar-collapse {
@@ -106,6 +106,6 @@ nav a:hover {
 } */
  
 .navbar-toggle .icon-bar {
-  width: 70px !important;
-  height:7px !important;
+  width: 60px !important;
+  height:8px !important;
 }

@@ -29,14 +29,15 @@
 	font-size: 70px;
 	transform: translate(-50%, -50%);
 	font-family: 'Raleway', sans-serif;
+	
 	white-space: nowrap;
 	transition: 2s;
 	text-shadow: 4px 4px 8px #000033;
    }
 
-.top {
+/* .top {
 	opacity: 1;
-}
+} */
 /* background color */
 body {
 	background: rgb(162,196,221, 0.8);

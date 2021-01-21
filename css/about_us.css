@@ -56,7 +56,9 @@ body {
     color: black;
 }
 /* rounding sides of images */
-.main_imgs {
+/* .main_imgs {
 /*    border-radius: 50%; for circle*/
     border-radius: 25px;
-}
+    
+
+} */

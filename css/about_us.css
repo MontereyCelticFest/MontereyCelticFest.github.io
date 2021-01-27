@@ -1,62 +1,61 @@
 body {
-    background-image: url("stripes-light.png");
+  background-image: url("stripes-light.png");
 }
 /* top buffer to move tiles down */
 .top-buffer {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 /* top buffer to move tiles down */
 .mid-buffer {
-    margin-top: 75px;
-    border-radius: 25px;
+  margin-top: 75px;
+  border-radius: 25px;
 }
 /* BACKGROUND COLORS FOR PANNELS */
 .color1 {
-    background: rgb(87,123,183);
+  background: rgb(87, 123, 183);
 }
 .color2 {
-    background: rgb(240,129,123);
+  background: rgb(240, 129, 123);
 }
 .color3 {
-    background: rgb(224,184,96);
+  background: rgb(224, 184, 96);
 }
 .color4 {
-    background: rgb(0,159,203, 0.6);
+  background: rgb(0, 159, 203, 0.6);
 }
 .color5 {
-    background: rgb(243,133,165);
+  background: rgb(243, 133, 165);
 }
 .color6 {
-    background: rgb(100,194,198, 0.6);
+  background: rgb(100, 194, 198, 0.6);
 }
 /* description text for imgs */
 .about_text {
-    padding: 3%;
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.16em;
-    color: black;
-    border-radius: 25px;
+  padding: 3%;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.16em;
+  color: black;
+  border-radius: 25px;
 }
 /* no padding */
 .no_padding {
-   padding: 0 !important;
-   margin: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .add_padding {
-    padding: 3%;
+  padding: 3%;
 }
 /* Title */
 .centered1 {
-    margin-top: 150px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    font-family: 'Roboto', sans-serif;
-    color: black;
+  margin-top: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
-/* rounding sides of images */
+/*rounding sides of images */
 .main_imgs {
-/*    border-radius: 50%; for circle*/
-    border-radius: 25px;
+  border-radius: 25px;
 }

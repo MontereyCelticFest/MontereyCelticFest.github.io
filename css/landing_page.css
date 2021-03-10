@@ -1,76 +1,89 @@
- /* main page */
+/* main page */
 .main_page_container {
-	position: relative;
-	text-align: center;
-	color: white;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 /* centers picture */
-.main_page_img
-{
-	margin-top: 200;
-	padding-top: 200;
-	width: 100%;
-	z-index: 10;
+.main_page_img {
+  margin-top: 200;
+  padding-top: 200;
+  width: 100%;
+  z-index: 10;
+}
+.notice {
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  right: 15%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5vw;
+  background-color: #39a7f0;
+  border-radius: 15px;
+  color: #fcfaf9;
+  text-shadow: 2px 2px 4px #01010e;
 }
 /* centered text main page */
 .centered1 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-weight: 4200;
-	font-family: 'Raleway', sans-serif;
-	text-shadow: 4px 4px 8px #000033;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 4200;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 4px 4px 8px #000033;
+  white-space: nowrap;
 }
 /* centered text main page */
 .centered3 {
-	position: absolute;
-	top: 83%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-weight: 4200;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 4200;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 4px 4px 8px #000033;
 }
 /* centered text tiles */
 .centered2 {
-/*	background: rgb(110,171,222);
+  /*	background: rgb(110,171,222);
 	border-radius: 25px;*/
-	position: absolute;
-	top: 91%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-weight: 4500;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	letter-spacing: 0.22em;
-	color: white;
-	white-space: nowrap;
-/*	background: lightblue;
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 4500;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.22em;
+  color: white;
+  white-space: nowrap;
+  /*	background: lightblue;
 	width: 92%;*/
 }
 /* bottom text */
 .bottom_text {
-	padding-top: 3%;
-	padding-left: 1%;
-	font-weight: 4700;
-	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	letter-spacing: 0.16em;
-	color: rgb(155,211,241);
+  padding-top: 3%;
+  padding-left: 1%;
+  font-weight: 4700;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.16em;
+  color: rgb(155, 211, 241);
 }
 /* container for main page tiles */
 .main_page_grid {
-	padding-top: 30px;
-	padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* creates hover effect over tiles */
 .thumbnail:hover {
-	opacity: .72;
+  opacity: 0.72;
 }
 /* zoom effect over main tiles */
 .zoom {
-  transition: transform .4s; /* Animation */
+  transition: transform 0.4s; /* Animation */
   margin: 0 auto;
   display: inline-block;
 }
@@ -79,33 +92,32 @@
 }
 /* ticket btn on main page */
 .ticket_btn {
-	width: 100;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
+  width: 100;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 /* social btns */
 .btn-xl {
-    padding: 10px 10px;
-    font-size: 60px;
-    border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 60px;
+  border-radius: 10px;
 }
 /*sponsor padding homepage*/
 
 .add_padding {
-    padding: 3%;
+  padding: 3%;
 }
 /* Title */
 .sponsorscentered1 {
-    margin-top: 150px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    font-family: 'Roboto', sans-serif;
-	color: black;
-	
+  margin-top: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
 .sponsorscolor4 {
-    background: rgb(0,159,203, 0.6);
+  background: rgb(0, 159, 203, 0.6);
 }

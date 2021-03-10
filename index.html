@@ -1,240 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Monterey Scottish Games and Celtic Festival</title>
-	<!-- Bootstrap CSS include -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Raw CSS include -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/nav.css"> -->
-	<link rel="stylesheet" type="text/css" href="css/nav.css">
-	<link rel="stylesheet" type="text/css" href="css/landing_page.css">
-	
+    <title>Monterey Scottish Games and Celtic Festival</title>
+    <!-- Bootstrap CSS include -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Raw CSS include -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/nav.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/landing_page.css">
 
-	<!-- Main page font include -->
-	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-	<!-- Nav bar and tiles font include -->
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-	<!-- Font awesome include -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- path to nav bar -->
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- Main page font include -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Nav bar and tiles font include -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font awesome include -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- path to nav bar -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-	<!-- nav bar start -->
-	<!-- wont appear on local machine unless:
-		1. cd into the correct directory containing index.html
-		2. run a webserver: python3 -m http.server
-		3. navigate to webpage: http://localhost:8000/
-	-->
-	<div id="nav-placeholder">
-	</div>
-	<script>
-		$(function () {
-			$("#nav-placeholder").load("nav.html");
-		});
-		var onResize = function () {
-			// apply dynamic padding at the top of the body according to the fixed navbar height
-			$("body").css("padding-top", $(".navbar-fixed-top").height());
-		};
-		$(window).resize(onResize);
-		$(function () {
-			onResize();
-		});
-	</script>
-	<!-- nav bar end -->
+    <!-- nav bar start -->
+    <!-- wont appear on local machine unless:
+        1. cd into the correct directory containing index.html
+        2. run a webserver: python3 -m http.server
+        3. navigate to webpage: http://localhost:8000/
+    -->
+    <div id="nav-placeholder">
+    </div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+        var onResize = function () {
+            // apply dynamic padding at the top of the body according to the fixed navbar height
+            $("body").css("padding-top", $(".navbar-fixed-top").height());
+        };
+        $(window).resize(onResize);
+        $(function () {
+            onResize();
+        });
+    </script>
+    <!-- nav bar end -->
 
 
-	<div class="main_page_container">
-		<img src="images/monterey_overview.jpg" class="main_page_img">
-		<div class="centered1" style="font-size:5.8vw;">Monterey Scottish Games<br>& Celtic Festival<br></div>
-		<div class="centered3" style="font-size:3.2vw;">July 17 - July 18, 2021<br>
-			<a class="btn btn-primary btn-lg ticket_btn" type="button" role="button"
-				href="https://montereyscotgames.ticketspice.com/tickets2021">Buy Tickets</a>
-		</div>
-	</div>
+    <div class="main_page_container">
+        <img src="images/monterey_overview.jpg" class="main_page_img">
+        <div class="notice">Due to continued safety concerns and state and county guidelines,
+            we have decided to cancel the Monterey Scottish Games & Celtic Festival on July 17-18, 2021. 
+            We are looking forward to next year and have an exciting Festival being planned so mark your 
+            calendars for July 16-17, 2022. Please stay tuned and take care everyone!</div>
+        <div class="centered1" style="font-size:5.8vw;">Monterey Scottish Games<br>& Celtic Festival</div>
+        <div class="centered3" style="font-size:3.2vw;">July 16 + 17, 2022<br>
+            <!-- <a class="btn btn-primary btn-lg ticket_btn" type="button" role="button"
+                href="https://montereyscotgames.ticketspice.com/tickets2021">Buy Tickets</a> -->
+        </div>
+    </div>
 
-	<!-- main_page_grid start -->
-	<div class="row main_page_grid">
+    <!-- main_page_grid start -->
+    <div class="row main_page_grid">
 
-		<!-- activites start-->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom">
-				<a href="festival_activities.html#live_music">
-					<img src="images/HP-2.jpg">
-					<div class="centered2" style="font-size:2vw;">
-						Live Music
-					</div>
-				</a>
-			</div>
-		</div>
-		<!-- activites end-->
+        <!-- activites start-->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom">
+                <a href="festival_activities.html#live_music">
+                    <img src="images/HP-2.jpg">
+                    <div class="centered2" style="font-size:2vw;">
+                        Live Music
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- activites end-->
 
-		<!-- food start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#international_food">
-					<img src="images/HP-3.jpg">
-					<div class="centered2" style="font-size:2vw;">Food</div>
-				</a>
-			</div>
-		</div>
-		<!-- food end -->
+        <!-- food start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#international_food">
+                    <img src="images/HP-3.jpg">
+                    <div class="centered2" style="font-size:2vw;">Food</div>
+                </a>
+            </div>
+        </div>
+        <!-- food end -->
 
-		<!-- athletics start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#athletics">
-					<img src="images/HP-4.jpg">
-					<div class="centered2" style="font-size:2vw;">Athletics</div>
-				</a>
-			</div>
-		</div>
-		<!-- athletics end -->
+        <!-- athletics start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#athletics">
+                    <img src="images/HP-4.jpg">
+                    <div class="centered2" style="font-size:2vw;">Athletics</div>
+                </a>
+            </div>
+        </div>
+        <!-- athletics end -->
 
-		<!-- music start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#competition">
-					<img src="images/HP-5.jpg">
-					<div class="centered2" style="font-size:1.3vw;">Celtic Music & Competitions</div>
-				</a>
-			</div>
-		</div>
-		<!-- music end -->
+        <!-- music start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#competition">
+                    <img src="images/HP-5.jpg">
+                    <div class="centered2" style="font-size:1.3vw;">Celtic Music & Competitions</div>
+                </a>
+            </div>
+        </div>
+        <!-- music end -->
 
-		<!-- beer start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#beer">
-					<img src="images/HP-6.jpg">
-					<div class="centered2" style="font-size:1.4vw;">Beer and Whiskey Tasting</div>
-				</a>
-			</div>
-		</div>
-		<!-- beer end -->
+        <!-- beer start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#beer">
+                    <img src="images/HP-6.jpg">
+                    <div class="centered2" style="font-size:1.4vw;">Beer and Whiskey Tasting</div>
+                </a>
+            </div>
+        </div>
+        <!-- beer end -->
 
-		<!-- drum start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#drum">
-					<img src="images/HP-7.jpg">
-					<div class="centered2" style="font-size:1.9vw;">Drum Major Classic</div>
-				</a>
-			</div>
-		</div>
-		<!-- drum end -->
+        <!-- drum start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#drum">
+                    <img src="images/HP-7.jpg">
+                    <div class="centered2" style="font-size:1.9vw;">Drum Major Classic</div>
+                </a>
+            </div>
+        </div>
+        <!-- drum end -->
 
-		<!-- dance start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#dancing">
-					<img src="images/HP-8.jpg">
-					<div class="centered2" style="font-size:1.9vw;">Highland Dancing</div>
-				</a>
-			</div>
-		</div>
-		<!-- dance end -->
+        <!-- dance start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#dancing">
+                    <img src="images/HP-8.jpg">
+                    <div class="centered2" style="font-size:1.9vw;">Highland Dancing</div>
+                </a>
+            </div>
+        </div>
+        <!-- dance end -->
 
 
-		<!-- clan start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#clans">
-					<img src="images/HP-9.jpg">
-					<div class="centered2" style="font-size:2vw;">Clans</div>
-				</a>
-			</div>
-		</div>
-		<!-- clan end -->
+        <!-- clan start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#clans">
+                    <img src="images/HP-9.jpg">
+                    <div class="centered2" style="font-size:2vw;">Clans</div>
+                </a>
+            </div>
+        </div>
+        <!-- clan end -->
 
-		<!-- history start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#history">
-					<img src="images/HP-10.jpg">
-					<div class="centered2" style="font-size:2vw;">Living History</div>
-				</a>
-			</div>
-		</div>
-		<!-- history end -->
+        <!-- history start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#history">
+                    <img src="images/HP-10.jpg">
+                    <div class="centered2" style="font-size:2vw;">Living History</div>
+                </a>
+            </div>
+        </div>
+        <!-- history end -->
 
-		<!-- dog start -->
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom"><a href="festival_activities.html#sheep_dog">
-					<img src="images/HP-11.jpg">
-					<div class="centered2" style="font-size:1.4vw;">Sheep Dog Demonstrations</div>
-				</a>
-			</div>
-		</div>
-		<!-- dog end -->
-	</div>
-	<!-- main_page_grid end -->
+        <!-- dog start -->
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom"><a href="festival_activities.html#sheep_dog">
+                    <img src="images/HP-11.jpg">
+                    <div class="centered2" style="font-size:1.4vw;">Sheep Dog Demonstrations</div>
+                </a>
+            </div>
+        </div>
+        <!-- dog end -->
+    </div>
+    <!-- main_page_grid end -->
 
-	<!-- footer start -->
-	<div class="container">
-		<div class="col-md-8">
-			<div class="bottom_text" style="font-size:2vw;">
-				Join us for our 53rd year in bringing the music, food,
-				athletics and performing arts of Scotland, Ireland, England and Wales to the Monterey
-				Peninsula.
-				<br><br>
-				July 17 & July 18, 2021
-			</div>
+    <!-- footer start -->
+    <div class="container">
+        <div class="col-md-8">
+            <div class="bottom_text" style="font-size:2vw;">
+                Join us for our 53rd year in bringing the music, food,
+                athletics and performing arts of Scotland, Ireland, England and Wales to the Monterey
+                Peninsula.
+                <br><br>
+                July 16 + 17, 2022
+            </div>
 
-			<a class="btn-xl" type="button" role="button" href="https://www.facebook.com/montereyscotgames/">
-				<i class="fa fa-facebook-square"></i>
-			</a>
-			<a class="btn-xl" type="button" role="button" href="https://www.instagram.com/montereyscotgames/">
-				<i class="fa fa-instagram"></i>
-			</a>
-		</div>
-	</div>
-	<!-- footer end -->
+            <a class="btn-xl" type="button" role="button" href="https://www.facebook.com/montereyscotgames/">
+                <i class="fa fa-facebook-square"></i>
+            </a>
+            <a class="btn-xl" type="button" role="button" href="https://www.instagram.com/montereyscotgames/">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <!-- footer end -->
 
-	<!-- sponsor section start -->
-	<div class="sponsorscentered1 sponsorscolor4" style="font-size:2vw;">Thank You To Our Sponsors</div>
-	<div class="container">
-		<div class="row top-buffer">
-			<div class="container">
-				<div class="col-sm-3 add_padding">
-					<div class="row">
-						<img class="img-responsive main_imgs" src="images/Sponsors/BrittaniaArms.jpg">
-					</div>
-				</div>
-				<div class="col-sm-3 add_padding">
-					<div class="row">
-						<img class="img-responsive main_imgs" src="images/Sponsors/PebbleLogoHiRes.png">
-					</div>
-				</div>
-				<div class="col-sm-3 add_padding">
-					<div class="row">
-						<img class="img-responsive main_imgs" src="images/Sponsors/SandCity.jpg">
-					</div>
-				</div>
-				<div class="col-sm-3 add_padding">
-					<div class="row">
-						<img class="img-responsive main_imgs" src="images/Sponsors/WhatsUpMonterey.png">
-					</div>
-				</div>
-			</div>
-		</div>
+    <!-- sponsor section start -->
+    <div class="sponsorscentered1 sponsorscolor4" style="font-size:2vw;">Thank You To Our Sponsors</div>
+    <div class="container">
+        <div class="row top-buffer">
+            <div class="container">
+                <div class="col-sm-3 add_padding">
+                    <div class="row">
+                        <img class="img-responsive main_imgs" src="images/Sponsors/BrittaniaArms.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 add_padding">
+                    <div class="row">
+                        <img class="img-responsive main_imgs" src="images/Sponsors/PebbleLogoHiRes.png">
+                    </div>
+                </div>
+                <div class="col-sm-3 add_padding">
+                    <div class="row">
+                        <img class="img-responsive main_imgs" src="images/Sponsors/SandCity.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-3 add_padding">
+                    <div class="row">
+                        <img class="img-responsive main_imgs" src="images/Sponsors/WhatsUpMonterey.png">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<div class="row">
-			<div class="container">
-				<div class="col-sm-8 add_padding">
-					<div class="row">
-						<img class="img-responsive main_imgs" src="images/Sponsors/KSBW.jpg">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- sponsor section end -->
+        <div class="row">
+            <div class="container">
+                <div class="col-sm-8 add_padding">
+                    <div class="row">
+                        <img class="img-responsive main_imgs" src="images/Sponsors/KSBW.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sponsor section end -->
 
-	<script src="https://code.jquery.com/jquery-3.5.1.js"
-		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-		crossorigin="anonymous"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157246083-2"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157246083-2"></script>
 </body>
 
 </html>

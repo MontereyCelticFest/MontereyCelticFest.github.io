@@ -1,218 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Monterey Scottish Games and Celtic Festival</title>
-	<!-- Bootstrap CSS include -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Raw CSS include -->
-	<link rel="stylesheet" type="text/css" href="css/nav.css">
-	<link rel="stylesheet" type="text/css" href="css/lineup.css">
-	<!-- Main page font include -->
-	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-	<!-- Nav bar and tiles font include -->
-	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-	<!-- Font awesome include -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- path to nav bar -->
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<!-- lineup js file include -->
-	<script src="lineup.js"></script>
+    <title>Monterey Scottish Games and Celtic Festival</title>
+    <!-- Bootstrap CSS include -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Raw CSS include -->
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/lineup.css">
+    <!-- Main page font include -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Nav bar and tiles font include -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Font awesome include -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- path to nav bar -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- lineup js file include -->
+    <script src="lineup.js"></script>
 
 </head>
 
 <body>
-	<!-- nav bar start -->
-	<div id="nav-placeholder">
-	</div>
-	<script>
-		$(function () {
-			$("#nav-placeholder").load("nav.html");
-		});
-		var onResize = function () {
-			// apply dynamic padding at the top of the body according to the fixed navbar height
-			$("body").css("padding-top", $(".navbar-fixed-top").height());
-		};
-		$(window).resize(onResize);
-		$(function () {
-			onResize();
-		});
-	</script>
-	<!-- nav bar end -->
+    <!-- nav bar start -->
+    <div id="nav-placeholder">
+    </div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+        var onResize = function () {
+            // apply dynamic padding at the top of the body according to the fixed navbar height
+            $("body").css("padding-top", $(".navbar-fixed-top").height());
+        };
+        $(window).resize(onResize);
+        $(function () {
+            onResize();
+        });
+    </script>
+    <!-- nav bar end -->
 
-	<div class="main_page_container">
-		<!-- main page image -->
-		<img src="images/P2-1.jpg" class="main_page_img">
-		<!--adding 2021 to the top centered over Festival Lineup-->
-		<div class="top" id="centered1" class="clearfix">2021 <p>Festival Lineup</p>
-		</div>
+    <div class="main_page_container">
+        <!-- main page image -->
+        <img src="images/P2-1.jpg" class="main_page_img">
+        <!--adding 2021 to the top centered over Festival Lineup-->
+        <div class="top" id="centered1" class="clearfix">2022 <p>Festival Lineup</p>
+        </div>
 
-		<!--<div class="top" id="centered1" > Festival Lineup</div>-->
+        <!--<div class="top" id="centered1" > Festival Lineup</div>-->
 
-	</div>
-	<table class="table table-sm">
-		<div class="day_text" style="font-size:3.5vw;">Saturday July 17, 2021</div>
-		<thead>
-			<tr class="table_text">
-				<th scope="col">Stage:</th>
-				<th scope="col">Payton Stage</th>
-				<th scope="col">Island Stage</th>
-				<th scope="col">Patte Arena</th>
-				<th scope="col">Pipe Band Arena</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class="table_text">
-				<th scope="row">11:00-12:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">12:00-1:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">1:00-2:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">2:00-3:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">3:00-4:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">4:00-5:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-		</tbody>
-	</table>
-	<table class="table table-sm">
-		<div class="day_text" style="font-size:3.5vw;">Sunday July 18, 2021</div>
-		<thead>
-			<tr class="table_text">
-				<th scope="col">Stage:</th>
-				<th scope="col">Payton Stage</th>
-				<th scope="col">Island Stage</th>
-				<th scope="col">Patte Arena</th>
-				<th scope="col">Pipe Band Arena</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class="table_text">
-				<th scope="row">11:00-12:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">12:00-1:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">1:00-2:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">2:00-3:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">3:00-4:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-			<tr class="table_text">
-				<th scope="row">4:00-5:00PM</th>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-				<td>To be announced</td>
-			</tr>
-		</tbody>
-	</table>
-	<!-- home page grid system -->
-	<div class="row main_page_grid">
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom">
-				<img src="images/holder.jpg">
-				<div class="centered2" style="font-size:1.9vw;"></div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom">
-				<img src="images/holder.jpg">
-				<div class="centered2" style="font-size:1.9vw;"></div></a>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom">
-				<img src="images/holder.jpg">
-				<div class="centered2" style="font-size:1.9vw;"></div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom">
-				<img src="images/holder.jpg">
-				<div class="centered2" style="font-size:1.9vw;"></div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom">
-				<img src="images/holder.jpg">
-				<div class="centered2" style="font-size:1.9vw;"></div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail zoom">
-				<img src="images/holder.jpg">
-				<div class="centered2" style="font-size:1.9vw;"></div>
-			</div>
-		</div>
-	</div>
+    </div>
+    <table class="table table-sm">
+        <div class="day_text" style="font-size:3.5vw;">Saturday July 16, 2022</div>
+        <thead>
+            <tr class="table_text">
+                <th scope="col">Stage:</th>
+                <th scope="col">Payton Stage</th>
+                <th scope="col">Island Stage</th>
+                <th scope="col">Patte Arena</th>
+                <th scope="col">Pipe Band Arena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table_text">
+                <th scope="row">11:00-12:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">12:00-1:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">1:00-2:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">2:00-3:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">3:00-4:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">4:00-5:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm">
+        <div class="day_text" style="font-size:3.5vw;">Sunday July 17, 2022</div>
+        <thead>
+            <tr class="table_text">
+                <th scope="col">Stage:</th>
+                <th scope="col">Payton Stage</th>
+                <th scope="col">Island Stage</th>
+                <th scope="col">Patte Arena</th>
+                <th scope="col">Pipe Band Arena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table_text">
+                <th scope="row">11:00-12:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">12:00-1:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">1:00-2:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">2:00-3:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">3:00-4:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+            <tr class="table_text">
+                <th scope="row">4:00-5:00PM</th>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+                <td>To be announced</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- home page grid system -->
+    <div class="row main_page_grid">
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom">
+                <img src="images/holder.jpg">
+                <div class="centered2" style="font-size:1.9vw;"></div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom">
+                <img src="images/holder.jpg">
+                <div class="centered2" style="font-size:1.9vw;"></div></a>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom">
+                <img src="images/holder.jpg">
+                <div class="centered2" style="font-size:1.9vw;"></div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom">
+                <img src="images/holder.jpg">
+                <div class="centered2" style="font-size:1.9vw;"></div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom">
+                <img src="images/holder.jpg">
+                <div class="centered2" style="font-size:1.9vw;"></div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail zoom">
+                <img src="images/holder.jpg">
+                <div class="centered2" style="font-size:1.9vw;"></div>
+            </div>
+        </div>
+    </div>
 
-	<!-- jquery include -->
-	<script src="https://code.jquery.com/jquery-3.5.1.js"
-		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<!-- Bootstrap js include -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-		crossorigin="anonymous"></script>
+    <!-- jquery include -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Bootstrap js include -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -46,6 +46,11 @@ body {
 .add_padding {
   padding: 3%;
 }
+.add_padding2 {
+  padding: 3%;
+  padding-top: 0;
+}
+
 /* Title */
 .centered1 {
   margin-top: 150px;

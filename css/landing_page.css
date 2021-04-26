@@ -107,8 +107,23 @@
 /*sponsor padding homepage*/
 
 .add_padding {
+  margin-left: 10%;
   padding: 3%;
 }
+.add_padding1 {
+  padding: 3%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.add_padding2 {
+  padding-top: 0;
+  margin-right: 20%;
+}
+.add_padding3 {
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
 /* Title */
 .sponsorscentered1 {
   margin-top: 150px;
@@ -120,4 +135,8 @@
 }
 .sponsorscolor4 {
   background: rgb(0, 159, 203, 0.6);
+}
+.containspons {
+  display: flex;
+  justify-content: center;
 }

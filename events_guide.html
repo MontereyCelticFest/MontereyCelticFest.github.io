@@ -1,8 +1,8 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <title>Monterey Scottish Games and Celtic Festival</title>
         <!-- Bootstrap CSS include -->
@@ -10,7 +10,8 @@
             integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Raw CSS include -->
         <link rel="stylesheet" type="text/css" href="css/nav.css">
-        <link rel="stylesheet" type="text/css" href="css/info.css">
+        <link rel="stylesheet" type="text/css" href="css/events_guide.css">                                         
+        <!-- <link rel="stylesheet" type="text/css" href="css/info.css"> -->
         <!-- Main page font include -->
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         <!-- Nav bar and tiles font include -->
@@ -23,4 +24,131 @@
         <script src="lineup.js"></script>
     
     </head>
-</html> -->
+    <body>
+        	<!-- nav bar start -->
+	<div id="nav-placeholder">
+	</div>
+	<script>
+		$(function () {
+			$("#nav-placeholder").load("nav.html");
+		});
+		var onResize = function () {
+			// apply dynamic padding at the top of the body according to the fixed navbar height
+			$("body").css("padding-top", $(".navbar-fixed-top").height());
+		};
+		$(window).resize(onResize);
+		$(function () {
+			onResize();
+		});
+	</script>
+    <!-- nav bar end -->
+    
+    <div class="container">
+		<div class="col-lg-12 col-sm-6">
+    
+    <table>
+       <caption>Celtic, Scottish and Irish Events Guide</caption>
+        <tr class="header">
+            <th class="year">Year</th>
+            <th>Month</th>
+            <th>Dates </th>
+            <th>Event Name </th>
+            <th>Event Website </th>
+            <th>Event City </th>
+            <th>Event State </th>
+        </tr>
+        <tr class="data">
+            <td>2021</td>
+            <td>September</td>
+            <td>9/4 - 9/5/21</td>
+            <td>Pleasanton Scottish Games</td>
+            <td><a href="url">https://thescottishgames.com/</a></td>
+            <td>Pleasanton</td>
+            <td>California</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>January</td>
+            <td>TBD</td>
+            <td>Winter Storm</td>
+            <td><a href="url">https://mhaf.org/-</a></td>
+            <td>Kansas City</td>
+            <td>Missouri</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>February</td>
+            <td>TBD</td>
+            <td>The Queen Mary of Scotsfestival</td>
+            <td><a href="url">https://www.queenmary.com/calendar-of-events/scotsfestival/home/</a></td>
+            <td>Long Beach</td>
+            <td>California</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>March</td>
+            <td>TBD</td>
+            <td>Redding Bagpipe Competition</td>
+            <td><a href="url">https://www.reddingbagpipecompetition.com/</a></td>
+            <td>Redding</td>
+            <td>California</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>April</td>
+            <td>TBD</td>
+            <td>Woodland Scottish Games</td>
+            <td><a href="url">https://woodlandcelticgames.org/</a></td>
+            <td>Woodland</td>
+            <td>California</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>May</td>
+            <td>5/28 - 5/29/22</td>
+            <td>Scottish Fest</td>
+            <td><a href="url">https://www.scottishfest.com/</a></td>
+            <td>Costa Mesa</td>
+            <td>California</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>June</td>
+            <td>TBD</td>
+            <td>San Diego Scottish Games</td>
+            <td><a href="url">https://sdhighlandgames.org/</a></td>
+            <td>San Diego</td>
+            <td>California</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>July</td>
+            <td>7/16 - 7/17/22</td>
+            <td>Monterey Scottish Games & Celitc Festival</td>
+            <td><a href="url">https://montereycelticfest.com/</a></td>
+            <td>Monterey</td>
+            <td>California</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>August</td>
+            <td>TBD</td>
+            <td>World Pipe Band Championships</td>
+            <td><a href="url">https://www.rspba.org/html/calendar.php</a></td>
+            <td>Glasgow</td>
+            <td>Scotland</td>
+        </tr>
+        <tr class="data">
+            <td>2022</td>
+            <td>September</td>
+            <td>9/3 - 9/4/22</td>
+            <td>Pleasanton Scottish Games</td>
+            <td><a href="url">https://thescottishgames.com/</a></td>
+            <td>Pleasanton</td>
+            <td>California</td>
+        </tr>
+    </table>
+    </div>
+    </div>
+</body>
+</html>
